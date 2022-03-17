@@ -4,7 +4,7 @@
 - This is the open source implementation of the CVPR2022 paper "Iterative Deep Homography Estimation"
 - [Paper link]()
     
-Si-Yuan Cao, Jianxin Hu, Ze-Hua Sheng, Hui-Liang Shen  
+Si-Yuan Cao, Jianxin Hu, ZeHua Sheng, Hui-Liang Shen  
 *Zhejiang University, Hangzhou, China*
 
 ## Table of Contents
