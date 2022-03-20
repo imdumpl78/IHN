@@ -26,7 +26,7 @@ This project is released under the Apache 2.0 license.
 ```
 @inproceedings{Cao2022IHN,
   title={Iterative Deep Homography Estimation},
-  author={Si-Yuan Cao, Jianxin Hu, Ze-Hua Sheng, Hui-Liang Shen},
+  author={Si-Yuan Cao, Jianxin Hu, ZeHua Sheng, Hui-Liang Shen},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   year={2022}
 }
