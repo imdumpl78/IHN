@@ -4,10 +4,10 @@
     
 ## Description
 - This is the open source implementation of the CVPR2022 paper "Iterative Deep Homography Estimation"
-- [Paper link](https://arxiv.org/abs/2203.15982)
-    
 Si-Yuan Cao, Jianxin Hu, ZeHua Sheng, Hui-Liang Shen  
 *Zhejiang University, Hangzhou, China*
+- [Paper link](https://openaccess.thecvf.com/content/CVPR2022/html/Cao_Iterative_Deep_Homography_Estimation_CVPR_2022_paper.html)
+    
 
 ## Table of Contents
 - [Requirements](#requirements)
@@ -18,12 +18,18 @@ Si-Yuan Cao, Jianxin Hu, ZeHua Sheng, Hui-Liang Shen
 - [Acknowledgement](#acknowledgement)
 
 ## Requirements
-    
-## Usage
+- Create a new anaconda environment and install all required packages before running the code.
+```
+conda create --name ihn
+conda activate ihn
+pip install requirements.txt
+```
 
+## Usage
+    
 ## License
 This project is released under the Apache 2.0 license.
-    
+
 ## Citation
 ```
 @InProceedings{Cao_2022_CVPR,
@@ -39,4 +45,4 @@ This project is released under the Apache 2.0 license.
 - Email: karlcao@hotmail.com
     
 ## Acknowledgement
-- This work is mainly based on [link]()
+- This work is mainly based on [RAFT](https://github.com/princeton-vl/RAFT) and [SCV](https://github.com/zacjiang/SCV), we thank the authors for the contribution.
