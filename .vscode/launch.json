@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Python: myevaluate.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "--model",
+                "results/mscoco/IHN.pth",
+                "--dataset",
+                "mscoco",
+                "--lev0",
+                // "--lev1",
+                // "--weight",
+                "--iters_lev0",
+                "6",
+                "--iters_lev1",
+                "0",
+                "--gpuid",
+                "0",
+                // "--mixed_precision",
+                "--savemat",
+                "mscoco.mat",
+                "--savedict",
+                "mscoco.npy",
+            ]
+        }
+    ]
+}
