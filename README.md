@@ -7,7 +7,7 @@
 Si-Yuan Cao, Jianxin Hu, ZeHua Sheng, Hui-Liang Shen  
 *Zhejiang University, Hangzhou, China*
 - [Paper link](https://openaccess.thecvf.com/content/CVPR2022/html/Cao_Iterative_Deep_Homography_Estimation_CVPR_2022_paper.html)
-- An inproved version of IHN will be released soon.
+- An improved version of IHN will be released soon.
     
 
 ## Table of Contents
@@ -29,10 +29,7 @@ pip install requirements.txt
 ## Usage
 The configurations are made in file .vscode/launch.json.   
 Please notice the location of the datasets in file datasets_4cor_img.py (for mscoco and spid) and datasets.py(for googlemap and googleearth).  
-Run evaluate script.
-```
-python myevaluate.py
-```
+Please note that the json file is only tested in vscode terminal.
     
 ## License
 This project is released under the Apache 2.0 license.
