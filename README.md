@@ -19,11 +19,11 @@ Si-Yuan Cao, Jianxin Hu, ZeHua Sheng, Hui-Liang Shen
 - [Acknowledgement](#acknowledgement)
 
 ## Requirements
-- Create a new anaconda environment and install all required packages before running the code.
+- Create a new anaconda environment (python 3.8) and install all required packages before running the code.
 ```
 conda create --name ihn
 conda activate ihn
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Usage
